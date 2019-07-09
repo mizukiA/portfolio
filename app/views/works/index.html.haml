@@ -1,0 +1,26 @@
+= render partial: 'header'
+
+%main
+  %h1.main__title my history...
+  %section.main__content-1 works
+  %h2.main__content-1__list
+    %h3.main__content-1__list__item
+      = link_to('Ruby,Javascript..メルカリ', {})
+    %h3.main__content-1__list__item
+      = link_to('python..SNS', {})
+    %h3.main__content-1__list__item
+      = link_to('Ruby,Javascript..chatspace', {})
+    %h3.main__content-1__list__item
+      = link_to('Ruby..pictweet', {})
+
+  %section.main__content-2 and more!!
+  %h2.main__content-2__list
+    %h3.main__content-2__list__item
+    %h3.main__content-2__list__item
+    %h3.main__content-2__list__item
+
+  %section.main__content-3 contact
+  %h2.main__content-3__contact
+    %input.main__content-3__contact__email mzk5326@gmail.com
+
+= render partial: 'footer'
