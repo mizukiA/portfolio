@@ -1,26 +1,26 @@
-= render partial: 'header'
-
 %main
-  %h1.main__title my history...
-  %section.main__content-1 works
-  %h2.main__content-1__list
-    %h3.main__content-1__list__item
-      = link_to('Ruby,Javascript..メルカリ', {})
-    %h3.main__content-1__list__item
-      = link_to('python..SNS', {})
-    %h3.main__content-1__list__item
-      = link_to('Ruby,Javascript..chatspace', {})
-    %h3.main__content-1__list__item
-      = link_to('Ruby..pictweet', {})
+  .wrapper
+    .contents
+      .main__title my works
+      %ul.main__content-1
+        %li.main__content-1__list
+          = link_to('Mercari', "/details/mercari")
+        %li.main__content-1__list
+          = link_to('SNS', "/sns")
+        %li.main__content-1__list
+          = link_to('Chatspace', "/chatspace")
+        %li.main__content-1__list
+          = link_to('Pictweet', "/pictweet")
 
-  %section.main__content-2 and more!!
-  %h2.main__content-2__list
-    %h3.main__content-2__list__item
-    %h3.main__content-2__list__item
-    %h3.main__content-2__list__item
+      .main__content-2
+      %ul.main__content-2__list
+        %li.main__content-2__list__item
+          about me
+        %li.main__content-2__list__item
+          name: Mizuki Ando
+        %li.main__content-2__list__item
+          status: be in the job hunt!!
 
-  %section.main__content-3 contact
-  %h2.main__content-3__contact
-    %input.main__content-3__contact__email mzk5326@gmail.com
-
-= render partial: 'footer'
+      %section.main__content-3
+        %h2.main__content-3__contact 
+        .main__content-3__contact__email contact: mzk5326@gmail.com
