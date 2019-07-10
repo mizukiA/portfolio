@@ -1,0 +1,26 @@
+%main
+  .wrapper
+    .contents
+      .main__title my works
+      %ul.main__content-1
+        %li.main__content-1__list
+          = link_to('Mercari', "/details/mercari")
+        %li.main__content-1__list
+          = link_to('SNS', "/sns")
+        %li.main__content-1__list
+          = link_to('Chatspace', "/chatspace")
+        %li.main__content-1__list
+          = link_to('Pictweet', "/pictweet")
+
+      .main__content-2
+      %ul.main__content-2__list
+        %li.main__content-2__list__item
+          about me
+        %li.main__content-2__list__item
+          name: Mizuki Ando
+        %li.main__content-2__list__item
+          status: be in the job hunt!!
+
+      %section.main__content-3
+        %h2.main__content-3__contact 
+        .main__content-3__contact__email contact: mzk5326@gmail.com

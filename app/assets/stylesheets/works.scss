@@ -1,0 +1,72 @@
+// Place all the styles related to the works controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+main{
+  .wrapper{
+    //   video{
+    background: linear-gradient(-45deg, rgba(4, 114, 124, 0.4), rgba(17, 66, 99, 0.6));
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: 150vh;
+    z-index: -100;
+    background: url('IMG_8728.JPG') no-repeat;
+    background-size: cover;
+    //   }
+    .contents{
+      width: 100%;
+      z-index: 2;
+      text-align:center;
+      font-family: 'Zapfino';
+      .main__title{
+        color: whitesmoke;
+        font-size: 50px;
+        opacity: 0.5;
+        float: left;
+        padding-left: 240px;
+      }
+    }
+  }
+}
+.main__content-1{
+  padding-top: 200px;
+  font-size: 30px;
+  list-style: none;
+  &__list{
+    :hover {
+      color: darkorchid;
+      font-size: 2em;
+      font-weight: bold;
+    }
+    a{
+      text-decoration: none;
+      flex-wrap: wrap;
+      color: white;  
+    }
+  }
+}
+.main__content-3{
+  float: right;
+  margin-top: 300px;
+  margin-right: 30px;
+  &__contact{
+  font-size: 40px;
+  }
+  &__email{
+    font-size: 20px;
+  }
+}
+.main__content-2{
+  .main__content-2__list{
+  font-size: 10px;
+  float: left;
+  margin-left: 30px;
+  flex-wrap: wrap;
+  font-size: 30px;
+  margin-left: 30px;
+    flex-wrap: wrap;
+  }
+}
