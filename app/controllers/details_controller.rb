@@ -6,10 +6,7 @@ class DetailsController < ApplicationController
   def sns
   end
 
-  def chatspace
-  end
-
-  def pictweet
+  def others
   end
   
 end

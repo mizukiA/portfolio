@@ -1,8 +1,23 @@
 %main
-  .wrapper
+  .wrapper-sub
     .contents
-      .main__title my works
-        .main__content Mercari
-          .main__content__list
-            = image_tag 'クリーンショット 2019-07-10 20.46.40', alt: 'mercari', height: '30%', width: '30%'
-
+      .main__title-sub
+        = link_to "my works", root_path
+      %ul.main-sub__content
+        %li.main-sub__content__list
+          フリーマーケットアプリケーション「メルカリ」のコピーサイト（チーム開発）
+          %br
+          使用言語: Ruby,Javascript,Haml,Scss
+          %br
+        %li.main-sub__content__list
+          = image_tag 'mercari.png', alt: 'mercari', height: '40%', width: '40%'
+        %li.main-sub__content__list
+          %br
+          商品購入画面
+          %br 
+          = image_tag 'mercari-1.png', alt: 'mercari-1', height: '40%', width: '40%'
+        %li.main-sub__content__list
+          %br
+          Payjpを使用したカード支払い画面
+          %br
+          = image_tag 'mercari-2.png', alt: 'mercari-2', height: '40%', width: '40%'

@@ -1,3 +1,70 @@
-// Place all the styles related to the details controller here.
+// Place all the styles related to the works controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+main{
+  .wrapper-sub{
+    background: linear-gradient(-45deg, rgba(4, 114, 124, 0.4), rgba(17, 66, 99, 0.6));
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: 210vh;
+    z-index: -100;
+    background: url('IMG_9584.JPG') no-repeat;
+    background-size: cover;
+    .contents{
+      width: 100%;
+      z-index: 2;
+      text-align:center;
+      font-family: 'Zapfino';
+      .main__title-sub{
+        a{
+        color: white;
+        font-size: 50px;
+        float: left;
+        padding-left: 240px;
+        text-decoration: none;
+        font-weight: bold;
+        }
+      }
+    }
+  }
+}
+.main-sub__content{
+  padding-top: 200px;
+  font-size: 20px;
+  list-style: none;
+  font-weight: bold;
+  &__list{
+    font-family: serif;
+    color: white;
+    }
+    image{
+      float: left;
+    }
+}
+
+// .main__content-3{
+//   float: right;
+//   margin-top: 300px;
+//   margin-right: 30px;
+//   &__contact{
+//   font-size: 40px;
+//   }
+//   &__email{
+//     font-size: 20px;
+//   }
+// }
+// .main__content-2{
+//   .main__content-2__list{
+//   font-size: 10px;
+//   float: left;
+//   margin-left: 30px;
+//   flex-wrap: wrap;
+//   font-size: 30px;
+//   margin-left: 30px;
+//     flex-wrap: wrap;
+//   }
+// }
