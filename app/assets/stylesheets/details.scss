@@ -10,7 +10,7 @@ main{
     min-width: 100%;
     min-height: 100%;
     width: auto;
-    height: 210vh;
+    height: 300vh;
     z-index: -100;
     background: url('IMG_9584.JPG') no-repeat;
     background-size: cover;
@@ -46,25 +46,3 @@ main{
     }
 }
 
-// .main__content-3{
-//   float: right;
-//   margin-top: 300px;
-//   margin-right: 30px;
-//   &__contact{
-//   font-size: 40px;
-//   }
-//   &__email{
-//     font-size: 20px;
-//   }
-// }
-// .main__content-2{
-//   .main__content-2__list{
-//   font-size: 10px;
-//   float: left;
-//   margin-left: 30px;
-//   flex-wrap: wrap;
-//   font-size: 30px;
-//   margin-left: 30px;
-//     flex-wrap: wrap;
-//   }
-// }
